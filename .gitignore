@@ -1,0 +1,6 @@
+.idea
+.gradle
+app/.externalNativeBuild/
+build
+*.iml
+*.iml
