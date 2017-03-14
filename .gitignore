@@ -4,3 +4,4 @@ app/.externalNativeBuild/
 build
 *.iml
 *.iml
+local.properties
