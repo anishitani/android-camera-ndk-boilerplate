@@ -2,9 +2,13 @@ language: android
 jdk: oraclejdk8
 android:
   components:
-    - platform-tools
-    - build-tools-25.0.2
+    - tools
+    - tools
     - android-25
+    - android-22
+    - sys-img-armeabi-v7a-android-22
+    - build-tools-25.0.0
+    - platform-tools
 
 before_install:
   - export ANDROID_HOME=/usr/local/android-sdk
