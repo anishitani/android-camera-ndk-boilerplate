@@ -20,4 +20,4 @@ before_install:
   - echo "ndk.dir=$ANDROID_NDK_HOME" >> local.properties
 
 script:
-  - ./gradlew build connectedCheck
+  - ./gradlew build
